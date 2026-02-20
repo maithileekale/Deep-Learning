@@ -1,0 +1,10 @@
+numpy==1.18.5
+pandas
+tensorflow==2.3.2
+keras==2.3.1
+flask
+matplotlib
+pillow
+scikit-learn
+opencv-python
+gunicorn

@@ -1,0 +1,14 @@
+[
+    {
+        "username": "Maithilee Kale",
+        "password": "scrypt:32768:8:1$n0cJIRoW9d4NgD2i$60fd61a00030b25b29efeff1a0adc35563284b327b21aed9529810a625408951aa6dbaf9bdda6afb8dec0f0f04c7f410457eb6248745ab49439042a8fe2fabfe"
+    },
+    {
+        "username": "Riya",
+        "password": "scrypt:32768:8:1$D01xKHKzspc9CslG$c3a491096b2e25af4e6899576f247d4e89f3998d2ae63479fec8a57d409621e999b0effc60217cae9435dc79564bd6abf54bed14d9d83c6251e86961b1b89906"
+    },
+    {
+        "username": "maithilee",
+        "password": "scrypt:32768:8:1$2A7iGUSWS0tUCgPO$d039a87afd814e180d1a72d45da725e1b8be21d6bb9389963cdaa7f769a2d764fda276c799cc976227ad5ec71cbf738b6fd59e699bc53aac894a0944c860ec93"
+    }
+]

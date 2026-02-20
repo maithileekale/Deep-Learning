@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result | DR Detection</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 120px);
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 12px;
+            width: 650px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+
+        .card img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #90caf9;
+            margin-bottom: 20px;
+        }
+
+        .result-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .confidence {
+            font-size: 18px;
+            color: #a5d6a7;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 10px 25px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Stage Colors */
+        .no-dr { background-color: #00c853; color: black; }
+        .mild-dr { background-color: #ffeb3b; color: black; }
+        .moderate-dr { background-color: #ff9800; color: black; }
+        .severe-dr { background-color: #f44336; color: white; }
+        .proliferative-dr { background-color: #b71c1c; color: white; }
+
+        .explanation-box {
+            margin-top: 25px;
+            text-align: left;
+        }
+
+        .explanation-content {
+            background: rgba(255,255,255,0.08);
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.6;
+            max-height: 250px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #2196f3;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: #42a5f5;
+        }
+
+        .note {
+            font-size: 13px;
+            color: #cfd8dc;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0,0,0,0.3);
+            font-size: 14px;
+            color: #b0bec5;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🔍 Prediction Result</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+
+        <!-- Uploaded Image -->
+        <img src="{{ image_path }}" alt="Uploaded Retinal Image">
+
+        <div class="result-title">
+            Predicted DR Stage
+        </div>
+
+        <!-- Dynamic Badge Class Fix -->
+        {% set stage_class = prediction.lower().replace(' ', '-') %}
+        <div class="badge {{ stage_class }}">
+            {{ prediction }}
+        </div>
+
+        <div class="confidence">
+            Confidence: {{ confidence }}%
+        </div>
+
+        <!-- AI Explanation -->
+        <div class="explanation-box">
+            <h3>🧠 AI Clinical Explanation</h3>
+            <div class="explanation-content">
+                {{ explanation }}
+            </div>
+        </div>
+
+        <div class="note">
+            Model: Inception-based CNN + IBM Granite (HuggingFace API) | For Educational Use Only
+        </div>
+
+        <a href="/dashboard" class="btn">🔄 Predict Another Image</a>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 | AI-based Diabetic Retinopathy Detection System
+</footer>
+
+</body>
+</html>

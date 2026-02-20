@@ -1,0 +1,75 @@
+[
+    {
+        "user": "maithileekale92@gmail.com",
+        "image": "9ac876cd-ca86-41f8-8b15-64ca0d489d33_d1b279cc02ae.png",
+        "prediction": "No DR",
+        "confidence": 95.81,
+        "explanation": "AI explanation unavailable.",
+        "timestamp": "2026-02-12 12:25:10.063188"
+    },
+    {
+        "user": "maithileekale92@gmail.com",
+        "image": "1235916e-ac9b-4eba-9328-2dddf4404421_f58d37d48e42.png",
+        "prediction": "Proliferative DR",
+        "confidence": 69.35,
+        "explanation": "AI explanation unavailable.",
+        "timestamp": "2026-02-12 12:25:37.857434"
+    },
+    {
+        "user": "maithileekale92@gmail.com",
+        "image": "2c6febb1-aaca-49e5-b7cb-5fff2874eb03_d271d3a2b552.png",
+        "prediction": "Proliferative DR",
+        "confidence": 52.2,
+        "explanation": "AI explanation unavailable.",
+        "timestamp": "2026-02-12 12:26:21.275600"
+    },
+    {
+        "user": "maithileekale92@gmail.com",
+        "image": "5aba9101-aec9-45bd-ad8f-35e78b5db7b4_d271d3a2b552.png",
+        "prediction": "Proliferative DR",
+        "confidence": 52.2,
+        "explanation": "\nProliferative Diabetic Retinopathy detected.\n\nThis is an advanced stage where new abnormal blood vessels form in the retina, which can lead to serious vision complications.\n\nPrecautions:\n\u2022 Immediate specialist treatment required\n\u2022 Possible laser or surgical intervention\n\u2022 Strict diabetes and blood pressure management\n\u2022 Continuous retinal monitoring\n",
+        "timestamp": "2026-02-12 12:37:04.708569"
+    },
+    {
+        "user": "Maithilee Kale",
+        "image": "a45546c5-29b3-41e2-a4b6-76591bd08770_d3e884109b45.png",
+        "prediction": "Severe DR",
+        "confidence": 39.41,
+        "explanation": "\nSevere Diabetic Retinopathy detected.\n\nMultiple blood vessels are blocked, increasing risk of retinal damage and vision loss.\n\nPrecautions:\n\u2022 Urgent ophthalmology evaluation\n\u2022 Possible laser treatment consideration\n\u2022 Strict diabetes management\n\u2022 Regular follow-up examinations\n",
+        "timestamp": "2026-02-12 13:11:40.486317"
+    },
+
+    {
+        "user": "maithilee",
+        "image": "0a460534-15f7-44a9-878c-752c1c886a3f_c8905b8d5cf1.png",
+        "prediction": "No DR",
+        "confidence": 51.23,
+        "explanation": "\nThe retinal scan shows no visible signs of diabetic retinopathy.\n\nThis indicates that there is currently no detectable damage to the blood vessels in the retina.\nHowever, regular eye check-ups are still strongly recommended.\n\nPrecautions:\n\u2022 Maintain controlled blood sugar levels\n\u2022 Monitor blood pressure\n\u2022 Follow a balanced diet\n\u2022 Annual eye screening\n",
+        "timestamp": "2026-02-20 10:57:53.669973"
+    },
+    {
+        "user": "maithilee",
+        "image": "eebe2ae3-714a-4f6c-833d-10824da3b622_0f96c358a250.png",
+        "prediction": "Mild DR",
+        "confidence": 53.98,
+        "explanation": "\nMild Diabetic Retinopathy detected with minimal microaneurysms.\n\nThis is the earliest stage of diabetic eye disease and may not affect vision significantly.\n\nPrecautions:\n• Strict blood sugar control\n• Regular ophthalmologist visits\n• Monitor for vision changes\n• Maintain healthy lifestyle habits\n",
+        "timestamp": "2026-02-20 10:59:10.217844"
+    },
+    {
+        "user": "maithilee",
+        "image": "9a8996e6-44dd-407f-be33-d5876dacd1ff_4c60b10a3a6a.png",
+        "prediction": "No DR",
+        "confidence": 60.73,
+        "explanation": "\nThe retinal scan shows no visible signs of diabetic retinopathy.\n\nThis indicates that there is currently no detectable damage to the blood vessels in the retina.\nHowever, regular eye check-ups are still strongly recommended.\n\nPrecautions:\n\u2022 Maintain controlled blood sugar levels\n\u2022 Monitor blood pressure\n\u2022 Follow a balanced diet\n\u2022 Annual eye screening\n",
+        "timestamp": "2026-02-20 10:59:25.437039"
+    },
+    {
+        "user": "maithilee",
+        "image": "0f5d7df5-6968-4130-b776-6224eed1c00d_00cc2b75cddd.png",
+        "prediction": "No DR",
+        "confidence": 52.92,
+        "explanation": "\nThe retinal scan shows no visible signs of diabetic retinopathy.\n\nThis indicates that there is currently no detectable damage to the blood vessels in the retina.\nHowever, regular eye check-ups are still strongly recommended.\n\nPrecautions:\n\u2022 Maintain controlled blood sugar levels\n\u2022 Monitor blood pressure\n\u2022 Follow a balanced diet\n\u2022 Annual eye screening\n",
+        "timestamp": "2026-02-20 11:00:34.245603"
+    }
+]
